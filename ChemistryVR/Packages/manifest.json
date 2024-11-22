@@ -5,6 +5,7 @@
     "com.unity.feature.development": "1.0.1",
     "com.unity.inputsystem": "1.10.0",
     "com.unity.render-pipelines.universal": "14.0.8",
+    "com.unity.services.cloud-build": "1.0.5",
     "com.unity.template.vr": "6.1.1",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.5",
