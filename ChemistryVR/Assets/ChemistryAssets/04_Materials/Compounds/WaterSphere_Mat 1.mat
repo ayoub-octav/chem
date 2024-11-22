@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8801510780954919650
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterSphere_Mat 1
+  m_Shader: {fileID: -6465566751694194690, guid: 1c9cd42897e2eb04ea1d5d0433ab45d0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 4050
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _IKT4l:
+        m_Texture: {fileID: 2800000, guid: 04c32290b16b9cd43becf9b2f91e55ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: 04c32290b16b9cd43becf9b2f91e55ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleReflectedCubemap_4dd61085126f432381c856744fcf3279_Cube_1_Cubemap:
+        m_Texture: {fileID: 8900000, guid: 156f30a6d5c7f9e41a1a1062efd92180, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleReflectedCubemap_ab5faebd71744491af9f589ad407a4b5_Cube_1_Cubemap:
+        m_Texture: {fileID: 8900000, guid: 156f30a6d5c7f9e41a1a1062efd92180, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c9bf8558cfe845deb23b57171d4ac110_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e8eef2d1ea85ab74282939d5ac1e0609, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _0_81: 0
+    - _Alpha: 0.97
+    - _Distortion: 1
+    - _NormalTilling: 3.67
+    - _QueueControl: 1
+    - _QueueOffset: 50
+    - _Roughness: 0.9
+    - _Strength: -8.07
+    - _Strength_1: 0.43
+    - _VertexDisplacement: 0.04
+    - _fresnel_Power: 0
+    - _tilling: 8.96
+    m_Colors:
+    - _Specular: {r: 0.8396226, g: 0.48070374, b: 0.2653524, a: 1}
+    - _fresnel_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

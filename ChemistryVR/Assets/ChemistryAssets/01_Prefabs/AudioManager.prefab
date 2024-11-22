@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2117093529508794631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7870086154844727743}
+  - component: {fileID: 5714901440198828111}
+  - component: {fileID: 4854262038002889347}
+  - component: {fileID: 2522868828263822526}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7870086154844727743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117093529508794631}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5714901440198828111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117093529508794631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427eeee0f4b04c74e8f2e8b3c3e24b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - id: 1
+    name: music
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: 2218e8f01f7afbc4b8741efe400ffd6e, type: 3}
+    - {fileID: 8300000, guid: fd8c801ab0f2f314ca194febf2a9b263, type: 3}
+    - {fileID: 8300000, guid: 8d54424801fe4b843a8bc6c6a62d6356, type: 3}
+    volume: 0.1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+  - id: 2
+    name: pt
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: 74ce0fbb1d15ebe4fb7cad09ba461c3b, type: 3}
+    volume: 0.1
+    pitch: 1
+    spatialBlend: 1
+    loop: 1
+  - id: 3
+    name: blackhole
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: 7ae7e15d6bee8db438006a17ff28b17b, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 4
+    name: book_hover
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: 63e2c1c4e7979014fb68877d72add819, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 1
+  - id: 5
+    name: book_swipe
+    isOneShot: 1
+    audioClip:
+    - {fileID: 8300000, guid: 5bf6d48b00079ad4b8bcf7929c674bde, type: 3}
+    - {fileID: 8300000, guid: 44f003a19abaa3545be64b67acc7595f, type: 3}
+    - {fileID: 8300000, guid: 7081522184cb218469894f5235de17f2, type: 3}
+    - {fileID: 8300000, guid: e5e1a7bbc637a114d80510f9ffb3fdc3, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 6
+    name: atom_bond_create
+    isOneShot: 1
+    audioClip:
+    - {fileID: 8300000, guid: 41ab0c65d7479194bb1472c5cb87031a, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 7
+    name: atom_grab
+    isOneShot: 1
+    audioClip:
+    - {fileID: 8300000, guid: 1a001a42b7772ca4da10a4f07e32b3bd, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 8
+    name: atom_bond_link
+    isOneShot: 1
+    audioClip:
+    - {fileID: 8300000, guid: a83f8e0899c5a144498ab8a1b818427b, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 9
+    name: atom_completed
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: b54e14c324737634e8fbbd9e88d40fba, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 10
+    name: transformation_phase1
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: f45d95104e6722b4da12c615324ee080, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 11
+    name: transformation_phase2
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: c349be20902cb48419c5049c95825495, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 12
+    name: transformation_phase1_reverse
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: 0b08a423f0e657340808431cc08cd366, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+  - id: 13
+    name: transformation_phase2_reverse
+    isOneShot: 0
+    audioClip:
+    - {fileID: 8300000, guid: 754ae34b3c267494b87e98c168126b9b, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+--- !u!114 &4854262038002889347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117093529508794631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5d5efb54e544d59ec1c95da410f786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioFileID: 0
+  audioFileName: music
+  onAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnable:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4854262038002889347}
+        m_TargetAssemblyTypeName: AudioPlayer, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisable:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4854262038002889347}
+        m_TargetAssemblyTypeName: AudioPlayer, Assembly-CSharp
+        m_MethodName: StopAudio
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!82 &2522868828263822526
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117093529508794631}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 4448309022753612758, guid: ed19431e9a5ab3a46bd850c0f1afe82b, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 29088de340723bf46a1df4aa342bccd8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - electronPrefab: {fileID: 3099510500031242729, guid: 947a5790904e5d84fa6c90c37a8c9cd2, type: 3}
+  - staticRing1Prefab: {fileID: 161365823220371532, guid: dfb5dac4c0cc9f74c9db7b2842ae2d46, type: 3}
+  - staticRing2Prefab: {fileID: 8998706680891765447, guid: 03267f3e5fdca014d90cf47410c0bf78, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

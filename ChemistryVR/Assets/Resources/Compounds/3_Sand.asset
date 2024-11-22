@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4888d7b7f6ff7db49b060045ea898363, type: 3}
+  m_Name: 3_Sand
+  m_EditorClassIdentifier: 
+  compoundName: Sand
+  bookContentTexture: {fileID: 2800000, guid: f964c68f66bfa604da2416d065a78413, type: 3}
+  sideAtomsLimit: 3
+  factsTexture: {fileID: 2800000, guid: 28931c421d7823f4abb56ddfd4882af1, type: 3}
+  factsLength: 4
+  compoundColor: {r: 0.8490566, g: 0.7469295, b: 0.6448024, a: 1}
+  compoundType: 1
+  atomList:
+    atoms:
+    - element:
+        name: Oxygen
+        symbol: O
+        atomicNumber: 8
+        atomicWeight: 15.999
+        color: {r: 1, g: 0.05, b: 0.05, a: 1}
+        electronConfiguration: 0200000006000000
+        electronegativity: 3.44
+        spawnCounter: 0
+        isSpawnlimit: 0
+      quantity: 2
+    - element:
+        name: Silicon
+        symbol: Si
+        atomicNumber: 14
+        atomicWeight: 28.085
+        color: {r: 0.94, g: 0.78, b: 0.63, a: 1}
+        electronConfiguration: 020000000800000004000000
+        electronegativity: 1.9
+        spawnCounter: 0
+        isSpawnlimit: 0
+      quantity: 1
+    onChange:
+      m_PersistentCalls:
+        m_Calls: []
+  bonds:
+  - bondType: 0
+    firstElement: 'O| Number: 1'
+    secondElement: 'Si| Number: 1'
+  - bondType: 0
+    firstElement: 'O| Number: 2'
+    secondElement: 'Si| Number: 1'
+  - bondType: 0
+    firstElement: 'O| Number: 1'
+    secondElement: 'Si| Number: 1'
+  - bondType: 0
+    firstElement: 'O| Number: 2'
+    secondElement: 'Si| Number: 1'
+  validAtoms:
+  - 'O| Number: 1'
+  - 'O| Number: 2'
+  - 'Si| Number: 1'

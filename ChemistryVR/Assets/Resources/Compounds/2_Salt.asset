@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4888d7b7f6ff7db49b060045ea898363, type: 3}
+  m_Name: 2_Salt
+  m_EditorClassIdentifier: 
+  compoundName: Salt
+  bookContentTexture: {fileID: 2800000, guid: c7f313741a46a794e915ad7aede1f851, type: 3}
+  sideAtomsLimit: 3
+  factsTexture: {fileID: 2800000, guid: e6349a6c96b3d34409212222f422a7ba, type: 3}
+  factsLength: 4
+  compoundColor: {r: 0.8138254, g: 0.8679245, b: 0.7164471, a: 1}
+  compoundType: 1
+  atomList:
+    atoms:
+    - element:
+        name: Sodium
+        symbol: Na
+        atomicNumber: 11
+        atomicWeight: 22.99
+        color: {r: 0.67, g: 0.36, b: 0.95, a: 1}
+        electronConfiguration: 020000000800000001000000
+        electronegativity: 0.93
+        spawnCounter: 0
+        isSpawnlimit: 0
+      quantity: 1
+    - element:
+        name: Chlorine
+        symbol: Cl
+        atomicNumber: 17
+        atomicWeight: 35.45
+        color: {r: 0.12, g: 0.94, b: 0.12, a: 1}
+        electronConfiguration: 020000000800000007000000
+        electronegativity: 3.16
+        spawnCounter: 0
+        isSpawnlimit: 0
+      quantity: 1
+    onChange:
+      m_PersistentCalls:
+        m_Calls: []
+  bonds:
+  - bondType: 1
+    firstElement: 
+    secondElement: Cl
+  validAtoms:
+  - Na
+  - Cl
